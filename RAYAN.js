@@ -1,14 +1,14 @@
-//===============RAYAN============//
+Oh //===============RAYAN============//
 const Discord = require("discord.js");
 const RAYAN = new Discord.Client();
 //===============EMPRATOR============//
 RAYAN.on("ready", () => {
   console.log(`Online In Servers`);
-  let statuses = [`STREAMING BY DEV RAYAN | KP UP`];
+  let statuses = [`ACC SPAM BY YT DEV RAYAN`];
   setInterval(function() {
-    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    RAYAN.user.setActivity(STREAMING, {      
-    type: "STREAMING", 
+    let PLAYING = statuses[Math.floor(Math.random() * statuses.length)];
+    RAYAN.user.setActivity(PLAYING, {      
+    type: "PLAYING", 
     url: "https://www.twitch.tv/faith"
     });
   }, 2000);
