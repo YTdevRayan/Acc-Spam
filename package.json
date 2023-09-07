@@ -1,0 +1,17 @@
+{
+  "name": "RAYAN",
+  "version": "2.1.0",
+  "description": "STREAMING ACCOUNT",
+  "main": "RAYAN.js",
+  "scripts": {
+    "start": "node RAYAN.js"
+  },
+  "dependencies": {
+    "discord.js": "11.4.2",
+    "express": "^4.17.1",
+    "ytdl-core": "^0.29.0"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
