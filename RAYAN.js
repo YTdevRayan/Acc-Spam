@@ -14,10 +14,18 @@ RAYAN.on("ready", () => {
   }, 2000);
 });
 //===============RAYAN============//
-RAYAN.on("ready", () => {
-    var join = RAYAN.channels.get(""); /// id voice
-    if (join) join.join();
-  });
-//===============RAYAN============// 
+RAYAN.on('message', message => {
+if (message.content === 'owo') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 9000; x++) {
+        message.channel.send(`owo daily`)
+          .then(m => {
+            count++;
+          })
+        }
+      }
+});
+//===============RAYAN============//
 RAYAN.login("");/////TOKEN DANE
 //===============RAYAN============//
