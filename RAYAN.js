@@ -27,5 +27,5 @@ if (message.content === 'owo') {
       }
 });
 //===============RAYAN============//
-RAYAN.login("");/////TOKEN DANE
+RAYAN.login("744936852372324448");/////TOKEN DANE
 //===============RAYAN============//
